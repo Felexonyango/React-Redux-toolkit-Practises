@@ -10,12 +10,13 @@ const Gallery = () => {
 dispatch(getphotos())
 
     },[dispatch])
-    console.log(photos)
+  
   return (
     <div className='app'>
         <h1>Gallery photos</h1>
         <div className='Gallery'>
       
+        <h1>Welcome to React Redux Toolkit  CreateSlice createAsyncThunk</h1>
         {photos.map(photo=>(
 
             <img 
