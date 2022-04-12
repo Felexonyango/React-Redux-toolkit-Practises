@@ -3,6 +3,7 @@ import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
 import User from './components/User'
 import Gallery from './components/Gallery'
+import Post from './components/Post'
 import "./App.css"
 const App = () => {
 return (
@@ -14,6 +15,7 @@ return (
 <TodoList/>
 <Gallery/>
 <User/>
+<Post/>
 
 </div>
 
