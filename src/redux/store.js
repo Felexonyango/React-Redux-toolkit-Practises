@@ -4,6 +4,7 @@ import GalleryReducer from "./GallerySlice"
 import { userApi } from "./userApi";
 import postReducer from "./postSlice"
 import { setupListeners } from "@reduxjs/toolkit/query";
+
 const store = configureStore({
     reducer:{
         tasks: taskReducer,
